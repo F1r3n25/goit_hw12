@@ -4,7 +4,7 @@ from datetime import datetime, timedelta
 import re
 import os
 import json
-# Hello, Vitaliрy!рррр
+
 class Field:
     def __init__(self, value):
         self.__value=None
@@ -204,6 +204,10 @@ if __name__ == "__main__":
     address_book.add_record(record5)
     address_book.add_record(record6)
 
+    print(address_book.iterator(2))
 
+    # address_book.find()
+
+    address_book.load()
 
 
